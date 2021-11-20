@@ -12,3 +12,8 @@ class Offer(models.Model):
     code = models.CharField(max_length=225)
     description = models.CharField(max_length=225)
     discount = models.FloatField()
+
+
+class Primer(models.Model):
+    pass
+
